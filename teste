@@ -1,0 +1,20 @@
+import matplotlib.pyplot as plt
+
+# Create a list of the courses
+courses = ["Administration", "Pedagogy", "Accounting", "Social Service", "Logistics", "Marketing", "Analysis and System Development", "Human Resources", "Audiovisual Production"]
+
+# Create a list of the number of enrollments for each course
+enrollments = [166550, 146950, 137550, 128250, 118950, 109650, 100350, 91050, 81750]
+
+# Create a plot of the number of enrollments for each course by year
+plt.plot(courses, enrollments)
+
+# Label the x-axis and y-axis
+plt.xlabel("Course")
+plt.ylabel("Number of Enrollments")
+
+# Set the title of the plot
+plt.title("Number of Enrollments in EAD Graduate and Technologist Courses in Brazil, 2010-2023")
+
+# Show the plot
+plt.show()
